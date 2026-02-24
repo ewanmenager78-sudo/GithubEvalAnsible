@@ -1,0 +1,6 @@
+
+wp_db_name: "wordpress"
+wp_db_user: "example"
+wp_db_password: "Mdp123"
+wp_root_password: "examplerootPW"
+wp_install_dir: "/var/www/html"

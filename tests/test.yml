@@ -1,0 +1,11 @@
+---
+- name: Test du déploiement WordPress Multi-OS
+  hosts: all
+  become: yes
+  vars:
+    wp_db_name: "test_db_wp"
+    wp_db_user: "test_user"
+    wp_db_password: "MDP123"
+
+  roles:
+    - role: /root/projets/eval

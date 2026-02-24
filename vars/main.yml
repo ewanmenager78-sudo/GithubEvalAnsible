@@ -1,0 +1,9 @@
+packages_debian: [apache2, php, libapache2-mod-php, php-mysql, mariadb-server, wget, unzip, python3-pymysql]
+apache_service_debian: apache2
+apache_conf_path_debian: /etc/apache2/sites-available/wordpress.conf
+www_user_debian: www-data
+
+packages_redhat: [httpd, php, php-mysqlnd, php-gd, mariadb-server, wget, unzip, python3-PyMySQL]
+apache_service_redhat: httpd
+apache_conf_path_redhat: /etc/httpd/conf.d/wordpress.conf
+www_user_redhat: apache
